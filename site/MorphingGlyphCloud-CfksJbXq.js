@@ -1,4 +1,4 @@
-import{j as d,r as b}from"./index-ochncqAs.js";const P=`<!doctype html>
+import{j as d,r as b}from"./index-BS28sf-o.js";const P=`<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
