@@ -1,4 +1,4 @@
-import{j as d,r as b}from"./index-DlBQENF4.js";const P=`<!doctype html>
+import{j as d,r as b}from"./index-6w4_Dobx.js";const P=`<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">

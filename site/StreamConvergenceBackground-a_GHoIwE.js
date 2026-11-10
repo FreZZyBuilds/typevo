@@ -1,4 +1,4 @@
-import{r as g,j as b}from"./index-DlBQENF4.js";const P=`
+import{r as g,j as b}from"./index-6w4_Dobx.js";const P=`
   attribute vec2 position;
   varying vec2 vUv;
   void main() {
