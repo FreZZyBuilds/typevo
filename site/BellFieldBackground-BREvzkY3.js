@@ -1,4 +1,4 @@
-import{r as p,j as P}from"./index-CvRcoWih.js";const Z=`
+import{r as p,j as P}from"./index-DWFw34Kg.js";const Z=`
                 attribute vec2 position;
                 void main() { gl_Position = vec4(position, 0.0, 1.0); }
             `,ee=`
