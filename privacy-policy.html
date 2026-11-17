@@ -55,7 +55,7 @@
 <ul>
   <li>Keine Konten, keine Werbung, kein Tracking, keine Analyse-Dienste, kein eigener Server.</li>
   <li>Was du tippst, bleibt auf deinem Gerät. Wir sehen deine Eingaben nie.</li>
-  <li>Daten verlassen das Gerät nur bei Funktionen, die du selbst auslöst (z. B. Schrift herunterladen, eigener Gemini-Schlüssel, Support-Nachricht).</li>
+  <li>Daten verlassen das Gerät nur bei Funktionen, die du selbst auslöst (z. B. eine Schrift oder das KI-Modell herunterladen, eine Support-Nachricht schicken). Deine getippten Texte verlassen das Gerät nie.</li>
   <li>Die Website setzt keine Cookies und lädt nichts von fremden Servern.</li>
 </ul></div>
 
@@ -80,9 +80,9 @@
 <tbody>
 <tr><td><b>Google-Schriftarten</b> (wenn du eine auswählst)</td><td>Abruf der Schriftdatei; dabei sieht der Anbieter deine IP-Adresse. Keine Eingaben.</td><td>Google Fonts (Google Ireland Ltd.)</td><td>Art. 6 Abs. 1 lit. b DSGVO (gewünschte Funktion)</td></tr>
 <tr><td><b>KI auf dem Gerät und Übersetzung</b></td><td>Download von Gemini Nano (Android AICore) bzw. Sprachpaketen (ML Kit). Deine Texte werden danach auf dem Gerät verarbeitet.</td><td>Google</td><td>Art. 6 Abs. 1 lit. b DSGVO</td></tr>
-<tr><td><b>Eigener Gemini-API-Schlüssel</b> (optional)</td><td>Nur wenn du selbst einen Schlüssel einträgst und eine KI-Aktion antippst: der ausgewählte Text, verschlüsselt per HTTPS. Der Schlüssel bleibt auf dem Gerät und wird nie gesichert oder exportiert.</td><td>Gemini-API von Google; es gelten Googles Bedingungen</td><td>Art. 6 Abs. 1 lit. b DSGVO</td></tr>
+<tr><td><b>Typevo-KI</b> (optional)</td><td>Nur wenn du sie selbst herunterlädst: einmaliger Download des KI-Modells (Qwen2.5, ca. 550 MB) von Hugging Face. Dabei wird nur die Datei angefragt; deine IP-Adresse ist für den Server sichtbar. Deine Texte werden danach ausschließlich auf dem Gerät verarbeitet.</td><td>Hugging Face, Inc. (USA)</td><td>Art. 6 Abs. 1 lit. b DSGVO</td></tr>
 <tr><td><b>„Gemini fragen“</b></td><td>Der Text wird an die Gemini-App bzw. den Assistenten auf deinem Gerät übergeben.</td><td>App auf deinem Gerät</td><td>Art. 6 Abs. 1 lit. b DSGVO</td></tr>
-<tr><td><b>Android-Sicherung</b></td><td>Ist die Google-Sicherung auf deinem Gerät aktiv, kann Android Einstellungen und Designs in deinem Google-Konto sichern (nie den API-Schlüssel).</td><td>Google (über Android)</td><td>deine Geräteeinstellung</td></tr>
+<tr><td><b>Android-Sicherung</b></td><td>Ist die Google-Sicherung auf deinem Gerät aktiv, kann Android Einstellungen und Designs in deinem Google-Konto sichern (nie das KI-Modell).</td><td>Google (über Android)</td><td>deine Geräteeinstellung</td></tr>
 </tbody></table>
 <p>Typevo enthält keine Werbung, keine In-App-Käufe und keine Analyse- oder Tracking-Werkzeuge.</p>
 
@@ -90,11 +90,11 @@
 <p>Schickst du über „Persönlicher Support“ oder „Wunsch äußern“ eine Nachricht, öffnet Typevo deine eigene App (z. B. E-Mail). Übertragen wird nur, was du absendest: dein Text, die App-Version, die Android-Version und das Handymodell sowie – wenn du es auswählst – ein Link zu deiner aktuellen Tastatur. Wir nutzen diese Daten nur, um zu antworten bzw. deinen Wunsch umzusetzen (Art. 6 Abs. 1 lit. b und f DSGVO), und löschen sie, sobald die Anfrage erledigt ist – spätestens nach 12 Monaten, sofern keine gesetzliche Aufbewahrungspflicht besteht. Für den Versand gelten die Bedingungen deines E-Mail- bzw. Messenger-Anbieters.</p>
 
 <h2 id="de-5">5. Fehlerberichte und Sicherung</h2>
-<p>Der Fehler-Melder speichert Abstürze und Fehler nur auf deinem Gerät. Ein Bericht verlässt das Gerät nur, wenn du ihn selbst kopierst oder teilst. Die Funktion „Sicherung exportieren“ speichert eine Datei an einem Ort, den du auswählst; der API-Schlüssel ist nie enthalten, die Zwischenablage nur auf Wunsch.</p>
+<p>Der Fehler-Melder speichert Abstürze und Fehler nur auf deinem Gerät. Ein Bericht verlässt das Gerät nur, wenn du ihn selbst kopierst oder teilst. Die Funktion „Sicherung exportieren“ speichert eine Datei an einem Ort, den du auswählst; das KI-Modell ist nicht enthalten, die Zwischenablage nur auf Wunsch.</p>
 
 <h2 id="de-6">6. Berechtigungen der App</h2>
 <ul>
-  <li><b>Internet</b> – für Schriften, Sprachpakete und die optionale Gemini-API</li>
+  <li><b>Internet</b> – für Schriften, Sprachpakete und das optionale KI-Modell (nur Downloads, deine Texte werden nie gesendet)</li>
   <li><b>Benachrichtigungen</b> – für Erinnerungen und den Fokus-Timer (optional)</li>
   <li><b>Vibration</b> – für haptisches Feedback beim Tippen</li>
 </ul>
@@ -129,7 +129,7 @@
 <ul>
   <li>No accounts, no ads, no tracking, no analytics, no server of our own.</li>
   <li>What you type stays on your device. We never see your input.</li>
-  <li>Data only leaves the device for features you trigger yourself (e.g. downloading a font, your own Gemini key, a support message).</li>
+  <li>Data only leaves the device for features you trigger yourself (e.g. downloading a font or the AI model, sending a support message). What you type never leaves the device.</li>
   <li>The website sets no cookies and loads nothing from third-party servers.</li>
 </ul></div>
 
@@ -143,9 +143,9 @@
 <ul>
   <li><b>Google fonts</b> (if you pick one): the font file is downloaded from Google Fonts, which sees your IP address. No text is sent. (Art. 6(1)(b) GDPR)</li>
   <li><b>On-device AI and translation:</b> Gemini Nano (Android AICore) and language packs (ML Kit) are downloaded from Google on request; your text is then processed on the device. (Art. 6(1)(b))</li>
-  <li><b>Your own Gemini API key</b> (optional): only if you enter a key and tap an AI action, the selected text is sent over HTTPS to Google's Gemini API under Google's terms. The key stays on the device and is never backed up or exported. (Art. 6(1)(b))</li>
+  <li><b>Typevo AI</b> (optional): only if you download it yourself, the AI model (Qwen2.5, about 550 MB) is fetched once from Hugging Face, Inc. (USA). Only the file is requested; your IP address is visible to the server. Your text is then processed on the device only. (Art. 6(1)(b))</li>
   <li><b>“Ask Gemini”</b> hands the text to the Gemini app / assistant on your device.</li>
-  <li><b>Android backup:</b> if Google backup is on, Android may back up settings and designs to your Google account (never the API key).</li>
+  <li><b>Android backup:</b> if Google backup is on, Android may back up settings and designs to your Google account (never the AI model).</li>
 </ul>
 <p>Typevo has no ads, no in-app purchases and no analytics or tracking tools.</p>
 
@@ -153,10 +153,10 @@
 <p>When you send a message via “Personal support” or “Make a wish”, Typevo opens your own app (e.g. e-mail). Only what you send is transferred: your text, the app version, Android version and phone model and – if you choose – a link to your current keyboard. We only use it to answer or to build your wish (Art. 6(1)(b) and (f) GDPR) and delete it once the request is done – at the latest after 12 months unless the law requires us to keep it.</p>
 
 <h2>5. Error reports and backups</h2>
-<p>The error detector stores crashes and errors on the device only; a report leaves the device only if you copy or share it yourself. “Export backup” saves a file where you choose; it never contains the API key, and the clipboard only if you want.</p>
+<p>The error detector stores crashes and errors on the device only; a report leaves the device only if you copy or share it yourself. “Export backup” saves a file where you choose; it never contains the AI model, and the clipboard only if you want.</p>
 
 <h2>6. App permissions</h2>
-<p>Internet (fonts, language packs, optional Gemini API), notifications (optional reminders and focus timer), vibration (haptic feedback). No access to contacts, location, microphone, camera or your files.</p>
+<p>Internet (downloads only: fonts, language packs, the optional AI model – your text is never sent), notifications (optional reminders and focus timer), vibration (haptic feedback). No access to contacts, location, microphone, camera or your files.</p>
 
 <h2>7. This website</h2>
 <p><b>Hosting:</b> the website is served by GitHub Pages (GitHub, Inc., San Francisco, USA). GitHub processes technically necessary data such as IP address, date and time, requested page and browser type in server logs to deliver the site and protect it from attacks (Art. 6(1)(f) GDPR). Data may be transferred to the USA; GitHub is certified under the EU-US Data Privacy Framework. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub's privacy statement</a>.</p>
