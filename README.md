@@ -9,4 +9,4 @@ privacy policy, served with GitHub Pages:
 Built from the website sources of the app project (Vite + React + ThreeUI). Do not edit the files here by hand –
 rebuild and copy them over.
 
-© 2026 Namiljay Builds · Contact: typevo.support@gmail.com
+© 2026 Namiljay Builds · Contact: support@typevo.de
